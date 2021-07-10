@@ -1,3 +1,11 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Bhavya Goel"
+theme = [
+    # "gruvhugo", 
+    # "hugo-coder", 
+    "hugo-refresh", 
+    # "hugo-theme-introduction", 
+    "toha", 
+    
+]
