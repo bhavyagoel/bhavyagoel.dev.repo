@@ -1,0 +1,70 @@
+baseURL: https://bhavyagoel.github.io
+
+languageCode: en-us
+title: "Bhavya Goel"
+theme: "toha"
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+# Control TOC Depth 
+markup:
+  tableofContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+  goldmark:
+    renderer:
+      unsafe: true
+
+# At least HTML and JSON are required for the main HTML content and
+# client-side JavaScript search
+outputs:
+  home:
+  - HTML
+  - RSS
+  - JSON
+
+# Enable global emoji support
+enableEmoji: true
+
+params:
+  # Background Image
+  background: /images/site/background.jpg
+
+  # Logos
+  logo:
+    main: /images/site/logo.png
+    inverted: /images/site/logo.png
+    favicon: /images/site/logo.png
+
+  # backgroundBlur: false
+  # GitHub Repo of site
+  gitRepo: https://github.com/bhavyagoel/bhavyagoel.dev.repo
+  # Default Branch
+  gitBranch: main
+
+  features:
+    portfolio:
+      enable: true
+    blog:
+      enable: true
+    notes:
+      enable: false
+
+enableTOC: true
+
+credentialsEnabled: false
+footer:
+  enable: true
+  template: footer.html
+  navigation:
+    enable: true
+  # Show/hide "Contact Me" section in the footer. Default is "true".
+  contactMe:
+    enable: true
+  
+
+
