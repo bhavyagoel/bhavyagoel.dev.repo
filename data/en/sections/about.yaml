@@ -1,0 +1,116 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Technical Head
+# your company information
+company:
+  name: IET-VIT
+  url: "https://ietvit.tech"
+
+designation_2: Community Lead
+company_2: 
+  name: TDC, Vellore
+  url: "https://www.instagram.com/tdc_vellore/"
+
+  
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: "
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus at mi non tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eleifend suscipit mauris, at tempor "
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "bgoel4132@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://github.com/bhavyagoel"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/16083356/bhavya-goel"
+
+- name: Kaggle
+  icon: "fab fa-kaggle"
+  url: "https://www.kaggle.com/bhavyagoel" 
+
+- name: Team Fourth Dimension
+  icon: "fa fa-cubes"
+  url: "https://github.com/Team-Fourth-Dimension"
+
+- name: Medium
+  icon: "fab fa-medium"
+  url: "https://medium.com/@bgoel4132"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/bhavya-goel-a79333b5/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/GoelBhavya"
+
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://www.instagram.com/goel_bhavya_/"
+
+# Show your badges
+# You can show your verifiable certificates from https://www.credly.com.
+# You can also show a circular bar indicating the level of expertise on a certain skill
+badges:
+# - type: certification
+#   name: Certified Kubernetes Security Specialist
+#   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+#   badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+
+- type: soft-skill-indicator
+  name: Python
+  percentage: 90
+  color: blue
+
+- type: soft-skill-indicator
+  name: Tensorflow
+  percentage: 70
+  color: yellow
+
+- type: soft-skill-indicator
+  name: PyTorch
+  percentage: 65
+  color: orange
+
+- type: soft-skill-indicator
+  name: HTML & CSS
+  percentage: 70
+  color: pink
+
+- type: soft-skill-indicator
+  name: Blockchain
+  percentage: 60
+  color: green
+
+- type: soft-skill-indicator
+  name: Computer Vision
+  percentage: 80
+  color: "#006994"
+
+
+
+
+
+# you can also provide color code instead of the color name
+# - type: soft-skill-indicator
+#   name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
