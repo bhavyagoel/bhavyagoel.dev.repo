@@ -7,17 +7,115 @@ section:
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
-
+buttons:
+- name: All
+  filter: "all"
+- name: Professional
+  filter: "professional"
+- name: Academic
+  filter: "academic"
+- name: Hobby
+  filter: "hobby"
 # Your Skills.
 # Give a summary of you each skill in the summary section.
+
+
+# your projects
+projects:
+- name: Kubernetes
+  logo: /images/sections/projects/kubernetes.png
+  role: Contributor
+  timeline: "March 2018 - Present"
+  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Production-Grade Container Scheduling and Management.
+  tags: ["professional", "kubernetes", "cloud"]
+
+
+
 skills:
 - name: Kubernetes
-#   logo: /images/sections/skills/kubernetes.png
-  summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  # logo: /images/sections/projects/kubernetes.png
+  role: Contributor
+  timeline: "March 2018 - Present"
+  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Production-Grade Container Scheduling and Management.
+  tags: ["professional", "kubernetes", "cloud"]
 
-# - name: Go Development
-#   logo: /images/sections/skills/go.png
+
+- name: Kubernetes
+  # logo: /images/sections/projects/kubernetes.png
+  role: Contributor
+  timeline: "March 2018 - Present"
+  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Production-Grade Container Scheduling and Management.
+  tags: ["academic", "kubernetes", "cloud"]
+
+
+# - name: C/C++
+#   logo: /images/sections/skills/python.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: Java
+#   logo: /images/sections/skills/python.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: GoLang
+#   logo: /images/sections/skills/python.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: Heroku
+#   logo: /images/sections/skills/python.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: Rust
+#   logo: /images/sections/skills/python.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: Scala
+#   logo: /images/sections/skills/python.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: Haskell
+#   logo: /images/sections/skills/python.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: GNU Linux
+#   logo: /images/sections/skills/python.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: OpenCV
+#   logo: /images/sections/skills/python.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: Tensorflow
+#   logo: /images/sections/skills/python.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: PyTorch
+#   logo: /images/sections/skills/python.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: PyTezos
+#   logo: /images/sections/skills/python.png
+#   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#   url: "https://golang.org/"
+
+# - name: Smartpy
+#   logo: /images/sections/skills/python.png
 #   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
 #   url: "https://golang.org/"
 
