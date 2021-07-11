@@ -9,6 +9,8 @@ greeting: "Hi, I am"
 contactInfo:
   email: "bgoel4132@gmail.com"
   phone: "+91 7042089702"
+  location: "Ghaziabad, India"
+  telegram: 't.me/bgoel4132'
   
 
 # some summary about what you do

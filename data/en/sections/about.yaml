@@ -24,8 +24,7 @@ company_2:
 resume: "files/resume.pdf"
 
 # a summary about you
-summary: "
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus finibus at mi non tempor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eleifend suscipit mauris, at tempor "
+summary: "Hello👋, I am Bhavya Goel highly analytical and process-oriented developer pursuing my Bachelors of Technology from [Vellore Institute of Technology](https://vit.ac.in/). I am currently leading two technical communities [Team Fourth Dimension](https://github.com/Team-Fourth-Dimension), the best technical team (awarded) on the campus, and [Tezos Developers Community, Vellore](https://bio.fm/tdc-vellore), a blockchain fanatics team by [Tezos India](https://tezosindia.org.in/). I’m interested in expanding beyond my academic background in the field of Data Science and Blockchain. I am a fast learner, actively engaged in exploring multiple domains around tech like Quantum Computing, Web Development, DevOps, and more." 
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -103,7 +102,6 @@ badges:
   name: Fast Learner
   percentage: 90
   color: green
-
 
 
 
