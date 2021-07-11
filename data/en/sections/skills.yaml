@@ -3,29 +3,29 @@ section:
   name: Skills
   id: skills
   enable: true
-  weight: 3
+  weight: 5
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
-buttons:
-- name: All
-  filter: "all"
+buttons_1:
+- name_1: All
+  filter_1: "all_1"
 
-- name: Technology
-  filter: "technology"
+- name_1: Technology
+  filter_1: "technology"
 
-- name: ProgLang
-  filter: "proglang"
+- name_1: ProgLang
+  filter_1: "proglang"
 
-- name: Framework
-  filter: "framework"
+- name_1: Framework
+  filter_1: "framework"
 
-- name: Database
-  filter: "database"
+- name_1: Database
+  filter_1: "database"
 
-- name: Tool
-  filter: "tool"
+- name_1: Tool
+  filter_1: "tool"
 
 
 # Your Skills.
@@ -34,107 +34,160 @@ skills:
 - name: Python
   logo: /images/sections/skills/python.png
   url: "https://python.org"
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["proglang"]
+  summary: ""
+  tags_1: ["proglang"]
 
 - name: C/C++
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags: ["proglang"]
+  logo: /images/sections/skills/c_cpp.svg
+  summary: ""
+  url: "http://www.cplusplus.org/"
+  tags_1: ["proglang"]
 
 - name: Java
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags: ["proglang"]
+  logo: /images/sections/skills/java.png
+  summary: ""
+  url: "https://www.java.com/en/"
+  tags_1: ["proglang"]
 
 - name: GoLang
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  logo: /images/sections/skills/go.png
+  summary: ""
   url: "https://golang.org/"
-  tags: ["proglang"]
+  tags_1: ["proglang"]
+
+- name: Javascript
+  logo: /images/sections/skills/js.jpg
+  url: "https://www.javascript.com/"
+  summary: ""
+  tags_1: ["proglang"]
+
+- name: Rust
+  logo: /images/sections/skills/rust.png
+  summary: ""
+  url: "https://www.rust-lang.org/"
+  tags_1: ["proglang"]
+
+- name: Scala
+  logo: /images/sections/skills/scala.png
+  summary: ""
+  url: "https://www.scala-lang.org/"
+  tags_1: ["proglang"]
+
+- name: Haskell
+  logo: /images/sections/skills/haskell.png
+  summary: ""
+  url: "https://www.haskell.org/"
+  tags_1: ["proglang"]
+
+
+
 
 - name: Heroku
   logo: /images/sections/skills/python.png
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
-  tags: ["tool"]
+  tags_1: ["tool"]
 
-- name: Rust
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags: ["proglang"]
 
-- name: Scala
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags: ["proglang"]
-
-- name: Haskell
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags: ["proglang"]
 
 - name: GNU Linux
   logo: /images/sections/skills/python.png
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
-  tags: ["tool", "technology"]
+  tags_1: ["tool", "technology"]
 
 - name: OpenCV
   logo: /images/sections/skills/python.png
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
-  tags: ["framework"]
+  tags_1: ["framework"]
 
 - name: Tensorflow
   logo: /images/sections/skills/python.png
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
-  tags: ["framework"]
+  tags_1: ["framework"]
 
 - name: PyTorch
   logo: /images/sections/skills/python.png
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
-  tags: ["framework"]
+  tags_1: ["framework"]
+
+- name: Flask
+  logo: /images/sections/skills/python.png
+  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  url: "https://golang.org/"
+  tags_1: ["framework"]
+
+- name: Streamlit
+  logo: /images/sections/skills/python.png
+  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  url: "https://golang.org/"
+  tags_1: ["framework"]
 
 - name: PyTezos
   logo: /images/sections/skills/python.png
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
-  tags: ["framework"]
+  tags_1: ["framework"]
+
+- name: Scikit-Learn
+  logo: /images/sections/skills/python.png
+  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+  url: "https://golang.org/"
+  tags_1: ["framework"]
 
 - name: Smartpy
   logo: /images/sections/skills/python.png
   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
   url: "https://golang.org/"
-  tags: ["framework"]
+  tags_1: ["framework"]
 
 - name: Cloud Computing
   logo: /images/sections/skills/python.png
   summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  tags: ["technology"]
+  tags_1: ["technology"]
+
+- name: Quantum Computing
+  logo: /images/sections/skills/python.png
+  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+  tags_1: ["technology"]
 
 - name: Docker
   logo: /images/sections/skills/python.png
   summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
   url: "https://www.docker.com/"
-  tags: ["tool"]
+  tags_1: ["tool"]
 
 - name: Hugo
   logo: /images/sections/skills/python.png
   summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
   url: "https://prometheus.io/"
-  tags: ["framework"]
+  tags_1: ["framework"]
 
 
 - name: Git
   logo: /images/sections/skills/python.png
   summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
   url: "https://git-scm.com/"
-  tags: ["tool"]
+  tags_1: ["tool"]
+
+- name: SQL
+  logo: /images/sections/skills/python.png
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
+  tags_1: ["database"]
+
+- name: Firebase
+  logo: /images/sections/skills/python.png
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
+  tags_1: ["database"]
+
+- name: MongoDB
+  logo: /images/sections/skills/python.png
+  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
+  tags_1: ["database"]
+

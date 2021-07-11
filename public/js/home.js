@@ -1,6 +1,7 @@
 "use strict";
 
 var projectCards;
+var skillCards;
 
 (function ($) {
   jQuery(document).ready(function () {
