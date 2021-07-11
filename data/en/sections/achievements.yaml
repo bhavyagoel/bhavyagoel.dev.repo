@@ -1,0 +1,18 @@
+# section information
+section:
+  name: Achievements
+  id: achievements
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your achievements achievements
+achievements:
+- title: Runner Up
+  image: /images/sections/achievements/spiritHack.png
+  summary: Runner Up at Spirit Hack, a hackathon organized by ACM, TIET
+- title: HealthTech Track Winner
+  image: /images/sections/achievements/accessDenied.png
+  summary: Winner of the HealthTech Track at Access Denied, a hackathon organized by IETE-ISF, VIT

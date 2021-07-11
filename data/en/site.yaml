@@ -5,6 +5,6 @@ description: Portfolio and personal blog of Bhavya Goel.
 # they will be separated by a divider from the main menus.
 customMenus:
   - name: Coding
-    url: /coding
+    url: /codes
   - name: Organisations
-    url: /organisations
+    url: /orgs

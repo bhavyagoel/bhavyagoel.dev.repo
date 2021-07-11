@@ -1,0 +1,27 @@
+
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 7
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+- name: Machine Learning
+  timeline: "Jun 2020 - No Expiration"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: "lorem ipsum"
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/ADTQ7PSX9SG7"
+
+- name: Algorithmic Thinking (Part 2)
+
+- name: Blockchain Basics
+
+- name: Neural Networks and Deep Learning

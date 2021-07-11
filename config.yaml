@@ -1,5 +1,4 @@
 baseURL: https://bhavyagoel.github.io
-
 languageCode: en-us
 title: "Bhavya Goel"
 theme: "toha"
@@ -66,5 +65,4 @@ footer:
   contactMe:
     enable: true
   
-
 
