@@ -74,36 +74,36 @@ badges:
 #   name: Certified Kubernetes Security Specialist
 #   url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
 #   badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+- type: soft-skill-indicator
+  name: Problem Solving
+  percentage: 85
+  color: "sky"
 
 - type: soft-skill-indicator
-  name: Python
+  name: Leadership
   percentage: 90
   color: blue
 
 - type: soft-skill-indicator
-  name: Tensorflow
-  percentage: 70
+  name: Team Work
+  percentage: 90
   color: yellow
 
 - type: soft-skill-indicator
-  name: PyTorch
-  percentage: 65
+  name: Communication
+  percentage: 80
   color: orange
 
 - type: soft-skill-indicator
-  name: HTML & CSS
-  percentage: 70
+  name: Hard Working
+  percentage: 90
   color: pink
 
 - type: soft-skill-indicator
-  name: Blockchain
-  percentage: 60
+  name: Fast Learner
+  percentage: 90
   color: green
 
-- type: soft-skill-indicator
-  name: Computer Vision
-  percentage: 80
-  color: "#006994"
 
 
 

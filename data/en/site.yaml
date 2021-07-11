@@ -4,7 +4,7 @@ description: Portfolio and personal blog of Bhavya Goel.
 # specify the list of custom menus that you want to show in the top navbar.
 # they will be separated by a divider from the main menus.
 customMenus:
-  - name: Coding
+  - name: Codes
     url: /codes
   - name: Organisations
     url: /orgs

@@ -51,11 +51,10 @@ params:
     blog:
       enable: true
     notes:
-      enable: false
+      enable: true
 
 enableTOC: true
 
-credentialsEnabled: false
 footer:
   enable: true
   template: footer.html
