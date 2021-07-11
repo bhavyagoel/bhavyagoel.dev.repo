@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Notes</title>
+    <title>Codes</title>
     <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -31,21 +31,20 @@
 
   <link rel="icon" type="image/png" href="/images/site/logo_hu54bb19e9d0a2e74cfaed7417fa8c856b_6440_42x0_resize_box_2.png" />
 
-<meta property="og:title" content="Notes" />
+<meta property="og:title" content="Codes" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://bhavyagoel.github.io/notes/" />
+<meta property="og:url" content="https://bhavyagoel.github.io/codes/" />
 
 
 
     
     
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/atom-one-dark.min.css"
-  />
-  <link rel="stylesheet" href="/css/layouts/notes.css">
-  <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    <link rel="stylesheet" href="/css/layouts/list.css">
+    <link rel="stylesheet" href="/css/navigators/sidebar.css">
+    
+    <link rel="stylesheet" href="/css/style.css"/>
+
 
 
     
@@ -128,7 +127,7 @@
         </form>
         <div class="sidebar-tree">
           <ul class="tree" id="tree">
-            <li id="list-heading"><a href="/notes" data-filter="all">Notes</a></li>
+            <li id="list-heading"><a href="/codes" data-filter="all"></a></li>
             <div class="subtree">
                 
 
@@ -144,72 +143,63 @@
       
 <section class="content-section" id="content-section">
   <div class="content container-fluid" id="content">
-    <div class="container-fluid note-card-holder" id="note-card-holder">
+    <div class="container-fluid post-card-holder" id="post-card-holder">
       
       
-        
-        
-        
       
         
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
+          <div class="post-card">
+  <a href="/codes/about/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">About Me</h5>
+        <p class="card-text post-summary">Here the important information about yourself should go.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">June 17, 2019</span>
+        <a
+        href="/codes/about/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
         
       
         
-        
-        
-      
-        
-        
-        
-      
-        
-        
+          <div class="post-card">
+  <a href="/codes/credits/" class="post-card-link">
+    <div class="card">
+      <div class="card-head">
+        <img class="card-img-top" src='/images/default-hero.jpg' alt="Hero Image">
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Credits</h5>
+        <p class="card-text post-summary">The images used in the site comes from https://getavataaars.com/.</p>
+      </div>
+      <div class="card-footer">
+        <span class="float-left">June 17, 2019</span>
+        <a
+        href="/codes/credits/"
+        class="float-right btn btn-outline-info btn-sm"
+        >Read</a
+        >
+      </div>
+    </div>
+  </a>
+</div>
+
         
       
     </div>
     <div class="paginator">
       
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a href="#" aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
-      </li>
-      <li class="page-item disabled">
-        <a href="#" aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
-      </li>
-      <li class="page-item active">
-        <a href="#" aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/notes/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/notes/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/notes/page/2/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
-      </li>
-    </ul>
     </div>
   </div>
 </section>
@@ -282,7 +272,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#about">About</a>
+                  <a class="smooth-scroll" href="/#skills">Skills</a>
                 </li>
               
               
@@ -291,7 +281,7 @@
                   
                 
                 <li class="nav-item">
-                  <a class="smooth-scroll" href="/#skills">Skills</a>
+                  <a class="smooth-scroll" href="/#about">About</a>
                 </li>
               
               
@@ -392,13 +382,7 @@
 
     
     
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js"></script>
-  <script src="/js/imagesloaded.pkgd.min.js"></script>
-  <script src="/js/note.js"></script>
-  <script>
-    hljs.initHighlightingOnLoad();
-  </script>
-  
+    <script src="/js/list.js"></script>
 
   </body>
 </html>
