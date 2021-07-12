@@ -31,163 +31,190 @@ buttons_1:
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 skills:
+
+  # Programmming Lang
 - name: Python
   logo: /images/sections/skills/python.png
   url: "https://python.org"
-  summary: ""
+  summary: "Proficient with the language and using it as the main language for development in various technologies including Data Science and Blockchain."
   tags_1: ["proglang"]
 
 - name: C/C++
   logo: /images/sections/skills/c_cpp.svg
-  summary: ""
+  summary: "Using these as the primary language when it comes to DSA and Competetive Coding."
   url: "http://www.cplusplus.org/"
   tags_1: ["proglang"]
 
 - name: Java
   logo: /images/sections/skills/java.png
-  summary: ""
+  summary: "Have a programmable understanding of the language trying to attain a developer level knowledge, for a diversity of use cases including App Development."
   url: "https://www.java.com/en/"
   tags_1: ["proglang"]
 
 - name: GoLang
   logo: /images/sections/skills/go.png
-  summary: ""
+  summary: "Been learning DevOps and tools around it, using Go as the primary language for the task. Have attained readable knowledge of the same."
   url: "https://golang.org/"
   tags_1: ["proglang"]
 
 - name: Javascript
   logo: /images/sections/skills/js.jpg
   url: "https://www.javascript.com/"
-  summary: ""
+  summary: "Have started learning JavaScript, to step into Web Development and various frameworks based on JS including React and Node."
   tags_1: ["proglang"]
 
 - name: Rust
   logo: /images/sections/skills/rust.png
-  summary: ""
+  summary: "Learning another language to get my development focused on performance and optimization, covering various fields of technology."
   url: "https://www.rust-lang.org/"
   tags_1: ["proglang"]
 
 - name: Scala
   logo: /images/sections/skills/scala.png
-  summary: ""
+  summary: "Just stepped into the world of functional programming, having Scala as my companion."
   url: "https://www.scala-lang.org/"
   tags_1: ["proglang"]
 
 - name: Haskell
   logo: /images/sections/skills/haskell.png
-  summary: ""
+  summary: "Will be starting to learn Haskell, to match industry needs in various realms from banking to spam filtering."
   url: "https://www.haskell.org/"
   tags_1: ["proglang"]
 
-
-
-
-- name: Heroku
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
+# Tools
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Been thoroughly using Git VCS for extending my projects to the Open Source Community, and better management of collaborative work."
+  url: "https://git-scm.com/"
   tags_1: ["tool"]
 
-
-
-- name: GNU Linux
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags_1: ["tool", "technology"]
-
-- name: OpenCV
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags_1: ["framework"]
-
-- name: Tensorflow
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags_1: ["framework"]
-
-- name: PyTorch
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags_1: ["framework"]
-
-- name: Flask
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags_1: ["framework"]
-
-- name: Streamlit
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags_1: ["framework"]
-
-- name: PyTezos
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags_1: ["framework"]
-
-- name: Scikit-Learn
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags_1: ["framework"]
-
-- name: Smartpy
-  logo: /images/sections/skills/python.png
-  summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
-  url: "https://golang.org/"
-  tags_1: ["framework"]
-
-- name: Cloud Computing
-  logo: /images/sections/skills/python.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  tags_1: ["technology"]
-
-- name: Quantum Computing
-  logo: /images/sections/skills/python.png
-  summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
-  tags_1: ["technology"]
+- name: Heroku
+  logo: /images/sections/skills/heroku.png
+  summary: "Extensively used the platform to deploy various projects. Have recently deployed a Discord Bot using the service."
+  url: "https://www.heroku.com/"
+  tags_1: ["tool"]
 
 - name: Docker
-  logo: /images/sections/skills/python.png
-  summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  logo: /images/sections/skills/docker.png
+  summary: "Have used docker for containerising my softwares, will be learning and using the tool more extensively in future projects."
   url: "https://www.docker.com/"
   tags_1: ["tool"]
 
-- name: Hugo
-  logo: /images/sections/skills/python.png
-  summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
-  url: "https://prometheus.io/"
+- name: GNU Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Been using it as my primary OS for the last 2 years. Thorough with CLI and Bash Scripting and have used multiple Linux Distrib which includes Debian and Arch based distrib(s)."
+  url: "https://www.gnu.org/"
+  tags_1: ["tool", "technology"]
+
+  # Technology
+- name: ML/ DL
+  logo: /images/sections/skills/ml.png
+  summary: "Learning and working on ML/ DL projects for the last 2 years. Having vast knowledge of the domain, along with a practical approach to solve real-world problems."
+  tags_1: ["technology"]
+
+- name: Blockchain
+  logo: /images/sections/skills/tezos.png
+  summary: "Have been exploring Blockchain for quite some time now, along with that has started working with Tezos as a Campus Ambassador. Has also started working on some amazing blockchain projects recently."
+  tags_1: ["technology"]
+
+- name: Quantum Computing
+  logo: /images/sections/skills/quantum.jpg
+  summary: "One fine evening the future of computation struck me, which marks my beginning of exploring Quantum Computing and Quantum Machine Learning. Have started learning the domain with the help of IBM Qiskit and Microsoft Katas."
+  tags_1: ["technology"]
+
+- name: DevOps
+  logo: /images/sections/skills/azure.png
+  summary: "Started learning about DevOps being the most demanded skill. Aiming to earn some certification in the field, has already started exploring Azure and it's services."
+  tags_1: ["technology"]
+
+- name: Functional Programming
+  logo: /images/sections/skills/vscode.png
+  summary: "Recently started investing into this new paradigm of coding with the help of programming languages like Scala, Rust and  Haskell."
+  tags_1: ["technology"]
+
+
+  # Framework
+- name: Tensorflow
+  logo: /images/sections/skills/tf.png
+  summary: "Have made multiple ML/DL projects using the TF framework, recently started exploring model optimisation techniques to suit the real-world scenarios."
+  url: "https://www.tensorflow.org/"
   tags_1: ["framework"]
 
+- name: PyTorch
+  logo: /images/sections/skills/pytorch.png
+  summary: "Beeen exploring the framework for quite some time, also have few projects with the same, The compatibility of PyTorch with newer packages makes it perfect for my projects."
+  url: "https://pytorch.org/"
+  tags_1: ["framework"]
 
-- name: Git
-  logo: /images/sections/skills/python.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
-  tags_1: ["tool"]
+- name: OpenCV
+  logo: /images/sections/skills/opencv.png
+  summary: "When it comes to Computer Vision, OpenCV is the most vast and actively used library, with multiples features for training and testing your machine learning model to an end product. Have worked with the framework in many of my projects."
+  url: "https://opencv.org/"
+  tags_1: ["framework"]
 
+- name: Flask
+  logo: /images/sections/skills/flask.png
+  summary: "Been my best companion when it comes to deploying any project be it ML/ DL or Database one. Used it vastly in multiple projects of mine."
+  url: "https://flask.palletsprojects.com/en/2.0.x/"
+  tags_1: ["framework"]
+
+- name: Streamlit
+  logo: /images/sections/skills/streamlit.png
+  summary: "When it comes to instant deployment or testing of project in the development stage, Streamlit is the one I go with. Have  used it extensively to showcase my data science work."
+  url: "https://streamlit.io/"
+  tags_1: ["framework"]
+
+- name: Scikit-Learn
+  logo: /images/sections/skills/sklearn.png
+  summary: "My machine Learning projects go hand-in-hand with Scikit-Learn. Have a vast practical knowledge with the library, working upon solving some real-world problems and some fun projects."
+  url: "https://scikit-learn.org/stable/"
+  tags_1: ["framework"]
+
+- name: SmartPy
+  logo: /images/sections/skills/smartpy.svg
+  summary: "Have started making some amazing blockchain projects using SmarPy to build smart contracts. User friendliness of the library makes it perfect for my use."
+  url: "http://smartpy.io/"
+  tags_1: ["framework"]
+
+- name: PyTezos
+  logo: /images/sections/skills/pytezos.png
+  summary: "Integration of smart contracts and wallets are very well managed with the help of PyTezos. Have started exploring it to finish some of my upcoming Blockchain projects build upon Tezos Network."
+  url: "https://pytezos.org/"
+  tags_1: ["framework"]
+
+- name: Hugo
+  logo: /images/sections/skills/hugo.png
+  summary: "One fine day I decided to start writing blogs, and make my portfolio when I found Hugo. This whole website is developed using the same, tweaking multiple themes to suit my needs. Planninjg to come up with a custom theme in future."
+  url: "https://gohugo.io/"
+  tags_1: ["framework"]
+
+- name: Qiskit
+  logo: /images/sections/skills/qiskit.svg
+  summary: "Have been exploring this framework for my ever-growing deeds to learn. Dived into Quantum  Computing with the help of this amazing framework. Aiming to learn and build using it in near future."
+  url: "https://qiskit.org/"
+  tags_1: ["framework"]
+
+# Database
 - name: SQL
-  logo: /images/sections/skills/python.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+  logo: /images/sections/skills/sql.png
+  summary: "Have worked extensively with SQL, have also builtdone projects using the same. Also comfortable with creating multiple PROCEDURES and TRIGGERS to ease the job and integration. Well versed with creating end-to-end application using it."
+  url: "https://www.mysql.com/"
   tags_1: ["database"]
 
 - name: Firebase
-  logo: /images/sections/skills/python.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+  logo: /images/sections/skills/firebase.png
+  summary: "Perfect go for anyone new to the database and who wishes to get the job done in the easiest and fastest possible way. Worked with it in some of my projects. Well-versed with Firebase, Firestore, and Web Deployment using it."
+  url: "https://firebase.google.com/"
   tags_1: ["database"]
 
 - name: MongoDB
-  logo: /images/sections/skills/python.png
-  summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
-  url: "https://git-scm.com/"
+  logo: /images/sections/skills/mongo.png
+  summary: "Have started learning MongoDB, have implemented the same in one of my projects. Will be exploring more in the same."
+  url: "https://www.mongodb.com/cloud/atlas/lp/try2-in?utm_source=google&utm_campaign=gs_apac_india_search_core_brand_atlas_desktop&utm_term=mongo%20db&utm_medium=cpc_paid_search&utm_ad=e&utm_ad_campaign_id=12212624347&gclid=Cj0KCQjw0K-HBhDDARIsAFJ6UGjJleIaY4issz9Y6CMsL55BdlNkW11tCtNsF9G6rF5tUv6SxOJPJiYaAgrtEALw_wcB"
   tags_1: ["database"]
 
+- name: Redis
+  logo: /images/sections/skills/redis.svg
+  summary: "Speed and reliability are what everyone needs when it comes to databases, have started learning about Redis. Aiming to come up with some cool projects using the same."
+  url: "https://redis.io/"
+  tags_1: ["database"]
