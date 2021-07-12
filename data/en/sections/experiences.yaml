@@ -10,55 +10,64 @@ section:
 
 # Your experiences
 experiences:
-- company:
-    name: Example Co.
-    url: "https://www.example.com"
-    location: Dhaka Branch
-    # company overview
-    overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+- company: 
+    name: Tezos Developers Community
+    url: 
+    location: 
+    overview: A team of blockchain fanatics, actively engaged in driving the innovation towards the perpetual boundaries of Blockchain. Blockchain being the fuel to the next revolution that mankind will notice, Tezos Developers Community, Vellore is involved intricately towards the noble cause.
   positions:
-  - designation: Senior Software Engineer
-    start: Nov 2019
+  - designation: Community Lead 
+    start: May 2021
+    responsibilities:
+    -  
+
+- company:
+    name: Tezos
+    url: "https://tezosindia.org.in/"
+    location: India
+    overview: Tezos India Foundation is a non-profit organization started by individuals who are passionate about the future of blockchain technology with Tezos in India. We as a community are spreading awareness about Blockchain Technology with Tezos across India.
+  positions:
+  - designation: Campus Ambassador
+    start: May 2021
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Design and develop XYZ tool for ABC task
-    - Design, develop and manage disaster recovery tool [Xtool](https://www.example.com) that backup Kubernetes volumes, databases, and cluster's resource definition.
-    - Lead backend team.
-
-  - designation: Junior Software Engineer
-    start: Nov 2017
-    end: Oct 2019
-    responsibilities:
-    - Implement and test xyz feature for abc tool.
-    - Support client for abc tool.
-    - Learn k,d,w technology for xyz.
+    - 
 
 - company:
-    name: PreExample Co.
-    url: "https://www.example.com"
-    location: Nowhere
-    overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+    name: Team Fourth Dimension
+    url: ""
+    location: Vellore, India
+    overview: Team  Fourth  Dimension  is  the  Technical  Division  of IET-VIT. The  team  of  enthusiasts  who pique  their  interest  in  everything  happening  about technology.  The  team  is  actively  involved  in various  projects  spread  across  multiple  domains  as Blockchain,  Robotics,  App  &  Web development,  Machine  Learning  &  Artificial  Intelligence. The  team  has  a  legacy  of  creating benchmarks  for  others  by  its  numerous  achievements globally,  from  Publishing  Research Papers  to  winning  and  organising  hackathons,  and  qualifying open-source  competitions.
   positions:
-  - designation: Software Engineer
-    start: March 2016
-    end: May 2017
+  - designation: Director
+    start: Jan 2021
     responsibilities:
-    - Write lots of example codes.
-    - Read lots of examples.
-    - See lots of example videos.
+    - 
+  - designation: Team Member
+    start: Dec 2019
+    end: Jan 2021
+    responsibilities:
+    - 
 
 - company:
-    name: Intern Counting Company (ICC).
-    url: "https://www.example.com"
-    location: Intern Land
-    overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+    name: IET-VIT
+    url: ""
+    location: Vellore, Tamil Nadu, India
+    overview: IET On Campus VIT is the student representation group of Europe's largest and the world's second largest professional society, The Institution of Engineering and Technology pursued in Vellore Institute of Technology - Vellore. It’s committed to sharing and spreading STEM knowledge among the student community, to help them become standouts, by providing them training and inspiration unavailable in the confines of their classrooms. 
   positions:
+  - designation: Technical Head
+    start: Jan 2021
+    responsibilities:
+    - 
+  - designation: Core Tean Member
+    start: Dec 2019
+    end: Jan 2021
+    responsibilities:
+    - 
   - designation: Intern
-    start: Jun 2015
-    end: Jan 2016
+    start: May 2020
+    end: Aug 2020
     responsibilities:
-    - Count lost of interns.
-    - Count more interns.
-    - Count me as an intern.
+    - 

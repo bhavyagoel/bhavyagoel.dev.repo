@@ -17,7 +17,7 @@ company:
 designation_2: Community Lead
 company_2: 
   name: TDC, Vellore
-  url: "https://www.instagram.com/tdc_vellore/"
+  url: "https://bio.fm/tdc-vellore"
 
   
 # your resume. this file path should be relative to you "static" directory
@@ -90,7 +90,7 @@ badges:
 
 - type: soft-skill-indicator
   name: Communication
-  percentage: 80
+  percentage: 95
   color: orange
 
 - type: soft-skill-indicator
