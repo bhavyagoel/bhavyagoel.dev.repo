@@ -3,7 +3,7 @@ section:
   name: Experiences
   id: experiences
   enable: true
-  weight: 3
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true 
@@ -19,7 +19,10 @@ experiences:
   - designation: Community Lead 
     start: May 2021
     responsibilities:
-    -  
+    - Have been the founding member of the community, leading it single-handedly.
+    - Building multiple projects using the Tezos Framework, and spreading my knowledge in the domain of Blockchain.
+    - Providing guidance and mentorship to students to learn and build projects involving blockchain.
+    - Host, Organise and Conduct various workshops over technological advancements in blockchain and other fields.
 
 - company:
     name: Tezos
@@ -29,60 +32,60 @@ experiences:
   positions:
   - designation: Campus Ambassador
     start: May 2021
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
     responsibilities:
-    - 
+    - Organize and lead a student-led community at the campus.
+    - Help to enhance and grow the Tezos Community at the Campus, with the help of various technical events.
+    - Involve students in the emerging technology of Blockchain, alongside providing them adequate resources and mentorship to grow.
+    - Help Tezos organize and host various workshops, events, and Hackathons on the campus.
 
 - company:
     name: Team Fourth Dimension
-    url: ""
+    url: "https://github.com/Team-Fourth-Dimension"
     location: Vellore, India
     overview: Team  Fourth  Dimension  is  the  Technical  Division  of IET-VIT. The  team  of  enthusiasts  who pique  their  interest  in  everything  happening  about technology.  The  team  is  actively  involved  in various  projects  spread  across  multiple  domains  as Blockchain,  Robotics,  App  &  Web development,  Machine  Learning  &  Artificial  Intelligence. The  team  has  a  legacy  of  creating benchmarks  for  others  by  its  numerous  achievements globally,  from  Publishing  Research Papers  to  winning  and  organising  hackathons,  and  qualifying open-source  competitions.
   positions:
   - designation: Director
     start: Jan 2021
     responsibilities:
-    - 
+    - Mentoring and guiding students over domains, like Data Science, Web Development, App Development, and more.
+    - Responsible for maintaining and overseeing every project and technical initiative by the team.
+    - Initiating and Organising multiple Technical Workshops, InCore Hackathons, Ideation events, and more.
+    - Actively learn and spread the gained knowledge to the team through regular meetings or workshops.
+
   - designation: Team Member
     start: Dec 2019
     end: Jan 2021
     responsibilities:
-    - 
+    - Build and maintain various projects being a part of Team Fourth Dimension.
+    - Actively participate and give input to every technical discussion in the team.
 
 - company:
     name: IET-VIT
-    url: ""
+    url: "https://ietvit.tech/"
     location: Vellore, Tamil Nadu, India
     overview: IET On Campus VIT is the student representation group of Europe's largest and the world's second largest professional society, The Institution of Engineering and Technology pursued in Vellore Institute of Technology - Vellore. It’s committed to sharing and spreading STEM knowledge among the student community, to help them become standouts, by providing them training and inspiration unavailable in the confines of their classrooms. 
   positions:
   - designation: Technical Head
     start: Jan 2021
     responsibilities:
-    - 
+    - Lead the best technical team (awarded) on the campus, and supervise various technical activities and events in the chapter.
+    -  Initiated a series of technical events named Quantum Series, which includes regular workshops, meetings, and hackathons.
+    - Actively engage and participate in technical events, also encouraging and guiding the teams for the same.
+    -  Organize and supervise various events led by the chapter, and provide substantial contributions to flagship events, HackOff and VITTUC.
   - designation: Core Tean Member
     start: Dec 2019
     end: Jan 2021
     responsibilities:
-    - 
-  - designation: Intern
+    - Contribute to and Coordinate with the chapter in various events and workshops organized.
+    - Actively engage in helping with Editorial, Media, and Technical domains of the chapter.
+
+  - designation: Data Science Intern
     start: May 2020
     end: Aug 2020
     responsibilities:
-    - 
-  
-- company:
-    name: VIT Technical United Conference
-    url: ""
-    overview: "VITTUC is a two day National Conference organized annually by IET-VI. The delegates gain an insight into the technical-political issues faced across the globe in status quo and the dynamics of international relations by assuming the roles of the UN representatives and corporate entities too. The Conference has been fostering a balance between the national and international policies on a constructive platform."
-    location: Vellore, Tamil Nadu, India
-  positions:
-  - designation: Event Coordinator 
-    start: Mar 2019
-    end: Mar 2019
-    responsibilities:
-    - 
+    - Learn and implement machine learning and deep learning techniques, over a range of datasets and practical scenarios.
+    - Analyze and extract features from the Suicide Prediction Dataset, and ultimately developing a model to predict the same.
+
 - company:
     name: HackOff
     url: "https://www.hackoff.tech/"
@@ -93,5 +96,20 @@ experiences:
     start: Mar 2019
     end: Mar 2019
     responsibilities:
-    - 
+    -  Publicizing and smooth coordination of the event, have made various tools to ease the work of Organizers in sending mails and messages to participants. Have actively worked in providing a better reach to the event.
+
+- company:
+    name: VIT Technical United Conference
+    url: "https://www.instagram.com/tv/B8wPF3lByVX/?igshid=1v68zgo8tle64"
+    overview: "VITTUC is a two day National Conference organized annually by IET-VI. The delegates gain an insight into the technical-political issues faced across the globe in status quo and the dynamics of international relations."
+    location: Vellore, Tamil Nadu, India
+  positions:
+  - designation: Event Coordinator 
+    start: Mar 2019
+    end: Mar 2019
+    responsibilities:
+    - Publicizing and smooth coordination of the event, assisting participants, and be readily available to any task thrown at me. Have actively worked in providing a better reach to the event.
+
+
+
   
