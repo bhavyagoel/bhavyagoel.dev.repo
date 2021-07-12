@@ -71,3 +71,27 @@ experiences:
     end: Aug 2020
     responsibilities:
     - 
+  
+- company:
+    name: VIT Technical United Conference
+    url: ""
+    overview: "VITTUC is a two day National Conference organized annually by IET-VI. The delegates gain an insight into the technical-political issues faced across the globe in status quo and the dynamics of international relations by assuming the roles of the UN representatives and corporate entities too. The Conference has been fostering a balance between the national and international policies on a constructive platform."
+    location: Vellore, Tamil Nadu, India
+  positions:
+  - designation: Event Coordinator 
+    start: Mar 2019
+    end: Mar 2019
+    responsibilities:
+    - 
+- company:
+    name: HackOff
+    url: "https://www.hackoff.tech/"
+    overview: "HackOff is an acclaimed hackathon conducted by IET-VIT and was one of the first member hacks of Major League Hacking. HackOff, in collaboration with MLH, is one of the biggest hackathons of 2021 in the APAC region."
+    location: Vellore, Tamil Nadu, India
+  positions:
+  - designation: Event Coordinator 
+    start: Mar 2019
+    end: Mar 2019
+    responsibilities:
+    - 
+  

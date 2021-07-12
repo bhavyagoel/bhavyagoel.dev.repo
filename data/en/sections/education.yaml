@@ -2,7 +2,7 @@
 section:
   name: Education
   id: education
-  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  template: sections/education-alt.html # Use "sections/education-alt.html for alternate template.
   enable: true
   weight: 4
   showOnNavbar: true
@@ -10,80 +10,61 @@ section:
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
-  icon: fa-microscope
-  timeframe: 2016-2020
-  institution:
-    name: ABC University of Technology
-    url: "#"
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+- name: B. Tech in Computer Science and Engineering
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: 2019-Present
   institution:
-    name: University of XYZ
-    url: "#"
+    name: Vellore Institute of Technology, Vellore
+    url: "https://vit.ac.in/"
   grade: #(optional)
     scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
+    achieved: 9.06
+    outOf: 10
+  takenCourses:
+    showGrades: false
     courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
+      - name: Data Structures and Algorithms
+      - name: Operating System
+      - name: Computer Architecture and Organization
+      - name: Database Management Systems
+      - name: Network and Communication
+      - name: Software Engineering
+      - name: Artificial Intelligence
+      - name: Blockchain and Cryptocurrency Technologies
+      - name: Applied Linear Algebra
+      - name: Theory of Computation and Compiler Design
+      - name: Digital Logic and Design
+
+
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Higher Secondary School Certificate
+  - Actively participating in multiple Hackathons hosted on the campus.
+  - Been working as the Technical Head of the best (awarded) technical chapter on campus.
+  - Have been the coordinator for one of the biggest hackathon on campus.
+  - Have organized and taken various initiatives through workshops and meetups to explain different technologies.
+  # publications: #(optional)
+  # - title: 
+  #   url: ""
+
+- name: Sr. Secondary
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2017-2019
   institution:
-    name: MST College of Science
-    url: "#"
+    name: Ch. Chhabil Dass Public School, Ghaziabad
+    url: "http://ccdps.in/"
   grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
+    scale: Percentage
+    achieved: 94
+    outOf: 100
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+  - Have helped in presentation and video projection during the annual function of the school.
+  - Have participated and won in many inter-school and intra-school competetions.
+  takenCourses:
+    showGrades: false
+    courses:
+      - name: Physics
+        # achieved: 
+        # outOf: 100
+      - name: Chemistry
+      - name: Mathematics
+      - name: English
+      - name: Computer Science
