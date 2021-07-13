@@ -12,16 +12,35 @@ section:
 
 # Your accomplishments
 accomplishments:
+
+- name: Blockchain Basics
+  timeline: "Jul 2020 - No Expiration"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: ""
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/6HTVVCJ6ARHK"
+
+- name: Algorithmic Thinking (Part 2)
+  timeline: "Jun 2020 - No Expiration"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: ""
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/AX6GA4NPUAEH"
+
 - name: Machine Learning
   timeline: "Jun 2020 - No Expiration"
   organization:
     name: Coursera
     url: https://www.coursera.org
-  courseOverview: "lorem ipsum"
+  courseOverview: ""
   certificateURL: "https://www.coursera.org/account/accomplishments/certificate/ADTQ7PSX9SG7"
 
-- name: Algorithmic Thinking (Part 2)
-
-- name: Blockchain Basics
-
 - name: Neural Networks and Deep Learning
+  timeline: "Jun 2020 - No Expiration"
+  organization:
+    name: Coursera
+    url: https://www.coursera.org
+  courseOverview: ""
+  certificateURL: "https://www.coursera.org/account/accomplishments/certificate/L5HJAUTU8DYD"

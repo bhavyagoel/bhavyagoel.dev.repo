@@ -33,6 +33,22 @@ projects:
   summary: ""
   tags: ["misc", "gen_cs"]
 
+- name: Algorithms
+  logo: /images/sections/projects/algorithm.png
+  role: Developer
+  timeline: "June 2020 - Present"
+  url: "/algorithm" 
+  summary: ""
+  tags: ["gen_cs"]
+
+- name: Portfolio & Blogs
+  logo: /images/sections/projects/portfolio.png
+  role: Developer
+  timeline: "Jul 2021 - Present"
+  url: "/portfolio" 
+  summary: ""
+  tags: ["web", "gen_cs"]
+
 - name: SpeechSign
   logo: /images/sections/projects/speech_sign.png
   role: Developer
@@ -46,14 +62,6 @@ projects:
   role: Developer
   timeline: "Apr 2021 - June 2021"
   url: "/manpages" 
-  summary: ""
-  tags: ["gen_cs"]
-
-- name: Musix
-  logo: /images/sections/projects/musix.png
-  role: Developer
-  timeline: "Aug 2020 - Oct 2020"
-  url: "/musix" 
   summary: ""
   tags: ["gen_cs"]
 
@@ -89,11 +97,11 @@ projects:
   summary: ""
   tags: ["ml_dl"]
 
-- name: Epidemic Confinement
-  logo: /images/sections/projects/epidemic_confine.png
+- name: Musix
+  logo: /images/sections/projects/musix.png
   role: Developer
-  timeline: "Dec 2019 - July 2020"
-  url: "/epidemic_confine" 
+  timeline: "Aug 2020 - Oct 2020"
+  url: "/musix" 
   summary: ""
   tags: ["gen_cs"]
 
@@ -105,11 +113,11 @@ projects:
   summary: ""
   tags: ["ml_dl"]
 
-- name: Algorithms
-  logo: /images/sections/projects/algorithm.png
+- name: Epidemic Confinement
+  logo: /images/sections/projects/epidemic_confine.png
   role: Developer
-  timeline: "June 2020 - Present"
-  url: "/algorithm" 
+  timeline: "Dec 2019 - July 2020"
+  url: "/epidemic_confine" 
   summary: ""
   tags: ["gen_cs"]
 
@@ -121,11 +129,5 @@ projects:
   summary: ""
   tags: ["ml_dl"]
 
-- name: Portfolio & Blogs
-  logo: /images/sections/projects/portfolio.png
-  role: Developer
-  timeline: "Jul 2021 - Present"
-  url: "/portfolio" 
-  summary: ""
-  tags: ["web", "gen_cs"]
+
 
