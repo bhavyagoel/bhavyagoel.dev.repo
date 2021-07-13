@@ -6,6 +6,7 @@ contentDir: "content/codes"
 publishDir: "public/codes"
 staticDir: "static/codes"
 assetDir: "assets/images/codes"
+relativeurls: true
 
 DefaultContentLanguage: en
 
