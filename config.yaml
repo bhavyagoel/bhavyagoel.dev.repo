@@ -28,7 +28,7 @@ outputs:
   - JSON
 
 
-googleAnalytics: G-JXNG15MHN0
+googleAnalytics: 
 
 # Enable global emoji support
 enableEmoji: true
