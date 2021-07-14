@@ -26,6 +26,8 @@ This is a sample post intended to test the followings:
 - Nesting of posts according to the category, which includes sub-categories nesting and other features.
 - Media rendering that includes images, tweets, YT Video, Vimeo Video and PDFs.
 
+---
+
 ## Alert
 
 The following alerts are available in this theme.
@@ -86,6 +88,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras egestas lectus sed
 
 Fusce vulputate dolor augue, ut porta sapien fringilla nec. Vivamus commodo erat felis, a sodales lectus finibus nec. In a pulvinar orci. Maecenas suscipit eget lorem non pretium. Nulla aliquam a augue nec blandit. Curabitur ac urna iaculis, ornare ligula nec, placerat nulla. Maecenas aliquam nisi vitae tempus vulputate.
 
+{{< vs 3 >}}
+
 ## Split
 
 This theme support splitting the page into as many columns as you wish.
@@ -138,21 +142,49 @@ This is line two. It should have `4rem` vertical space with previous line.
 
 ## Video
 
+### Video from Source
+
 {{< video src="/videos/sample.mp4" >}}
 
 <!-- markdown-link-check-disable-next-line -->
 Video by [Rahul Sharma](https://www.pexels.com/@rahul-sharma-493988) from [Pexels](https://www.pexels.com).
 
+{{< vs 3 >}}
 
-This is a sample post intended to test the followings:
+### Image Sample
 
-- A different post author.
-- Table of contents.
-- Markdown content rendering.
-- Math rendering.
-- Emoji rendering.
+{{< img src="/posts/sample/hero.jpg" align="center" title="Forest">}}
+
+{{< vs >}}
+
+### YouTube Video Sample
+
+{{< youtube ZJthWmvUzzc >}}
+
+{{< vs >}}
+
+### Vimeo Video Sample
+
+{{< vimeo 48912912 >}}
+
+{{< vs>}}
+
+## Embed Sample
+
+### Tweet Sample
+
+{{< tweet 1085870671291310081 >}}
+
+{{< vs >}}
+
+### PDF Document
+
+#### With Pagination
+
+{{< embed-pdf url="posts/sample/sample.pdf" >}}
 
 ---
+
 # Markdown Syntax Rendering
 
 ## Headings
@@ -160,10 +192,15 @@ This is a sample post intended to test the followings:
 The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
 
 # H1
+
 ## H2
+
 ### H3
+
 #### H4
+
 ##### H5
+
 ###### H6
 
 ## Paragraph
@@ -305,29 +342,3 @@ $$
 
 <p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
 <br>
-
-This sample post tests the followings:
-
-
-
-### Image Sample
-
-{{< img src="/posts/sample/hero.jpg" align="center" title="Forest">}}
-
-{{< vs >}}
-
-### Tweet Sample
-
-{{< tweet 1085870671291310081 >}}
-
-{{< vs >}}
-
-### YouTube Video Sample
-
-{{< youtube ZJthWmvUzzc >}}
-
-{{< vs >}}
-
-### Vimeo Video Sample
-
-{{< vimeo 48912912 >}}

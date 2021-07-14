@@ -28,8 +28,7 @@ outputs:
   - JSON
 
 
-googleAnalytics: 
-
+# googleAnalytics: 
 # Enable global emoji support
 enableEmoji: true
 
@@ -57,7 +56,7 @@ params:
     notes:
       enable: true
 
-enableTOC: true
+  enableTOC: true
 
 footer:
   enable: true
