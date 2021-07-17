@@ -9,6 +9,9 @@ languages:
     languageName: English
     weight: 1
 
+
+ignoreErrors: ["error-remote-getjson"]
+
 # Control TOC Depth 
 markup:
   tableofContents:
