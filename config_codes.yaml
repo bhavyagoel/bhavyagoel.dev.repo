@@ -1,13 +1,12 @@
-baseURL: "https://bhavyagoel.github.io/codes/"
+baseURL: "http://localhost:1313/codes/"
 languageCode: "en-us"
 title: "My Codes"
 theme: "hugo-refresh"
+themesDir: "themes"
 contentDir: "content/codes"
 publishDir: "public/codes"
 staticDir: "static/codes"
 assetDir: "assets/images/codes"
-relativeurls: true
-
 DefaultContentLanguage: en
 
 disableKinds: ["sitemap","RSS"]
