@@ -80,10 +80,27 @@ math: true
 * **Stage 3b** (Hand Pose Estimation) <cite>Reference[^1]</cite>
   * 21 Hand Joints used to detect the hand pose
   * Used reference to detect 3D hand pose 
+  * [Orthogonal Projection] 2D projection of the 3D hand is taken, and origin is the root of middle finger.
+  * [3D Rotation Group](https://en.wikipedia.org/wiki/3D_rotation_group)
+
+{{< vs 3 >}}
+
+#### Hand Image Reconstruction 
+<cite>Reference[^2]</cite>
+* Variational Autoencoders
+* L1 loss and KL (Kullback-Lieber loss) used to calculate the loss of reconstruction
+
+#### Semi-Supervised
+$$
+ \ L = \lambda_1L_{detection}+\lambda_2L_{gesture}+\lambda_3L_{rel}+\lambda_4L_{view}+\lambda_5L_{recons}
+$$
+
+* As all the datasets doesn't have all the annotations, there significance is turned on or off accordingly.
 
 [^1]: Zimmermann, C.; Brox, T. Learning to estimate 3d hand pose from single rgb images. In Proceedings of the IEEE International Conference on Computer Vision, Venice, Italy, 22–29 October 2017; pp. 4903–4911.M
+[^2]: Xu, C.; Cai, W.; Li, Y.; Zhou, J.; Wei, L. Accurate Hand Detection from Single-Color Images by Reconstructing Hand Appearances.Sensors 2020, 20, 192. [CrossRef](https://www.mdpi.com/1424-8220/20/1/192)
 
 ---
 ## Research paper
 
-<!-- {{< embed-pdf url="posts/researchPDF/handGest1.pdf" >}} -->
+{{< embed-pdf url="posts/researchPDF/handGest1.pdf" >}}
