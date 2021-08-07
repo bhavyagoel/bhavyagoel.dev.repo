@@ -1,6 +1,6 @@
 ---
-title: "Blogs"
-date: 2019-06-17T23:53:00+01:00
+title: "Articles"
+date: 2021-08-08T00:11:44+05:30
 draft: false
 hideLastModified: false
 # no need for the "summary" parameter as it is not displayed in any previews

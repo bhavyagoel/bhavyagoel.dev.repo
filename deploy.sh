@@ -30,12 +30,12 @@ printf '\033[0;32mUpdated code page built!!\033[0m\n'
 
 # Deleting content from main repo 
 printf "\033[0;32mDeleting the content in bhavyagoel.github.io\033[0m\n"
-rm -rf /home/heisenberg/GitHubProj/bhavyagoel.github.io/*
+rm -rf /home/bhavyagoel/dev/GitHubProj/bhavyagoel.github.io/*
 printf "%s\n" "Deleted!!"
 
 # Copying new build to main repo
 printf "\033[0;32mCopying the content to bhavyagoel.github.io\033[0m\n"
-cp -a public/. /home/heisenberg/GitHubProj/bhavyagoel.github.io/
+cp -a public/. /home/bhavyagoel/dev/GitHubProj/bhavyagoel.github.io/
 printf "%s\n" "Copied!!"
 
 # Input commit message
@@ -47,7 +47,7 @@ git push -u origin main
 printf '\033[0;32mSuccessfully Git Pushed bhavyagoel.dev.repo\033[0m\n'
 
 # Changing directories and push 
-cd /home/heisenberg/GitHubProj/bhavyagoel.github.io/
+cd /home/bhavyagoel/dev/GitHubProj/bhavyagoel.github.io/
 echo $(pwd)
 printf '\033[0;32mEnter the commit message (bhavyagoel.github.io): \033[0m'
 read -r msg_2
